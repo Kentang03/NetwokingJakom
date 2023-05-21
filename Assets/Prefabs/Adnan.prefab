@@ -208,9 +208,10 @@ GameObject:
   - component: {fileID: 4586939972862441284}
   - component: {fileID: 2189020461207620374}
   - component: {fileID: 805111633248790965}
+  - component: {fileID: 727413796788238287}
   m_Layer: 0
   m_Name: Adnan
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -290,6 +291,8 @@ MonoBehaviour:
   <PredictedSpawn>k__BackingField: {fileID: 0}
   _networkBehaviours:
   - {fileID: 4586939972862441284}
+  - {fileID: 805111633248790965}
+  - {fileID: 727413796788238287}
   <ParentNetworkObject>k__BackingField: {fileID: 0}
   <ChildNetworkObjects>k__BackingField: []
   _isNetworked: 1
@@ -297,7 +300,7 @@ MonoBehaviour:
   _initializeOrder: 0
   _defaultDespawnType: 0
   NetworkObserver: {fileID: 0}
-  <PrefabId>k__BackingField: 0
+  <PrefabId>k__BackingField: 4
   <SpawnableCollectionId>k__BackingField: 0
   _scenePathHash: 584410112
   <SceneId>k__BackingField: 0
@@ -316,9 +319,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2836e36774ca1c4bbbee976e17b649c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _componentIndexCache: 255
+  _componentIndexCache: 1
   _addedNetworkObject: {fileID: 2189020461207620374}
-  _networkObjectCache: {fileID: 0}
+  _networkObjectCache: {fileID: 2189020461207620374}
   _componentConfiguration: 0
   _synchronizeParent: 0
   _packing:
@@ -346,3 +349,26 @@ MonoBehaviour:
     X: 0
     Y: 0
     Z: 0
+--- !u!114 &727413796788238287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6563184556841906395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05408ed3b3c8c474f93b3bb3e5d5b437, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _componentIndexCache: 2
+  _addedNetworkObject: {fileID: 2189020461207620374}
+  _networkObjectCache: {fileID: 2189020461207620374}
+  inventoryObjects: []
+  invCanvasObject: {fileID: 6900333273198670476, guid: 8c7156096603cf14e81cec44b109cc10, type: 3}
+  inventoryButton: 9
+  pickupLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  pickupDistance: 2
+  pickupButton: 101
