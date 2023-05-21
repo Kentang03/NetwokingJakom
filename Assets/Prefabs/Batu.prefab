@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3551295450586359852}
   - component: {fileID: 1171771194957699143}
   m_Layer: 6
-  m_Name: Kayu
+  m_Name: Batu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,8 +30,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3551295450586359853}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.47, y: 1.61, z: -0.4}
-  m_LocalScale: {x: 0.61405, y: 0.38953, z: 1}
+  m_LocalPosition: {x: -1.344, y: 1.61, z: -0.6872}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -44,7 +44,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3551295450586359853}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &3551295450586359849
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -65,7 +65,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ee6668b31042674459282fadc6521dbc, type: 2}
+  - {fileID: 2100000, guid: fcf385d7d55cb8245a30abc294d7ce17, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -124,11 +124,11 @@ MonoBehaviour:
   _initializeOrder: 0
   _defaultDespawnType: 0
   NetworkObserver: {fileID: 0}
-  <PrefabId>k__BackingField: 5
+  <PrefabId>k__BackingField: 9
   <SpawnableCollectionId>k__BackingField: 0
   _scenePathHash: 0
   <SceneId>k__BackingField: 0
-  <AssetPathHash>k__BackingField: 11483979529081095847
+  <AssetPathHash>k__BackingField: 2147059981383505751
   _sceneNetworkObjects:
   - {fileID: 3551295450586359851}
 --- !u!54 &3551295450586359852
@@ -162,4 +162,4 @@ MonoBehaviour:
   _componentIndexCache: 0
   _addedNetworkObject: {fileID: 3551295450586359851}
   _networkObjectCache: {fileID: 3551295450586359851}
-  itemScriptable: {fileID: 11400000, guid: 333330cc84bda824cbb4f7985d59f0ec, type: 2}
+  itemScriptable: {fileID: 11400000, guid: aaa730bba9c73664fad2464c3145b768, type: 2}
